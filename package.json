@@ -1,0 +1,32 @@
+{
+  "name": "webapp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "git": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urialevy/webapp-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urialevy/webapp-template/issues"
+  },
+  "homepage": "https://github.com/urialevy/webapp-template#readme",
+  "dependencies": {
+    "antd": "^5.12.7",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.15.1"
+  }
+}
