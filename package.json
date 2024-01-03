@@ -4,8 +4,6 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "tailbuild": "tailwindcss -i ./src/style.css -o ./src/output.css",
-    "tailwind": "tailwindcss -i ./src/style.css -o ./src/output.css --watch",
     "build": "webpack",
     "dev": "webpack serve",
     "start": "webpack serve --open",
